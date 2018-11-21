@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,400,300,700);
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,100);
+@import url(https://fonts.googleapis.com/css?family=Lora:400italic);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+.caption{
+    max-width: 400px;
+  margin: 0 auto;
+  padding: 10px;
+    text-align: center;
+  background-color: #fff;
+    font-size: large;
+}
+
+.container-login100 {
+  background-size: cover;
+  padding: 250px 0;
+  position: relative;
+}
+.container-login100:before {
+  position: absolute;
+  z-index: 99;
+  background: rgba(110, 101, 169, 0.55);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: '';
+}
+.wrap-login100 {
+  position: relative;
+  z-index: 999;
+  color: #fff;
+}
+.login100-form{
+  position: relative;
+  z-index: 999;
+  color: #000;
+}
+.bnt-doc{
+    border-radius: 32px;
+}
+
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding-top:5px;
+    padding-bottom: 5px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Style the tab content */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+
+#gioithieu {background-color:red;}
+#danhmucchuong {background-color:green;}
+#binhluan {background-color:blue;}

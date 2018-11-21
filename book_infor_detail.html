@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Truyện Hay Online</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- google fonts -->
+
+		<!-- Css link -->
+		<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		<link rel="stylesheet" href="css/owl.transitions.css">
+		<link rel="stylesheet" href="css/animate.min.css">
+		<link rel="stylesheet" href="css/lightbox.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/preloader.css">
+		<link rel="stylesheet" href="css/image.css">
+		<link rel="stylesheet" href="css/icon.css">
+		<link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/mystyle.css">
+		<link rel="stylesheet" href="css/responsive.css">
+
+	</head>
+	<body id="top">
+	
+
+        <header id="navigation" class="navbar-fixed-top animated-header">
+            <div class="container">
+                <div class="navbar-header">
+                    <!-- responsive nav button -->
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+                    </button>
+					<!-- /responsive nav button -->
+					
+					<!-- logo -->
+					<h1 class="navbar-brand">
+						<a href="#body">
+                            <img src="img/myLogo.JPG" height="50" width="170" alt="">
+                        </a>
+					</h1>
+					<!-- /logo -->
+                </div>
+                <div class="search-container" style="margin-top: 12px;">
+                        <form action="/action_page.php">
+                          <input type="text" placeholder="Search.." name="search" style="border-radius: 32px;background: #FFF;padding-left: 10px;padding-right: 10px;border: 1px solid #54bd96b8;">
+                          <button type="submit" style="border-radius: 50px;border: 1px solid white;"><i class="fa fa-search"></i></button>
+                        </form>
+                      </div>
+				<!-- main nav -->
+                <nav class="collapse navbar-collapse navbar-right" role="navigation" style="margin-top: -38px;">
+                    <ul id="nav" class="nav navbar-nav menu">
+                        <li><a href="#top">Home</a></li>
+                        <li><a href="#portfolio">Thể loại</a></li>
+                        <li><a href="#team">Truyện đề cử</a></li>
+                        <li><a href="#testimonial">Truyện mới</a></li>
+                        <li><a href="#">Đăng ký</a></li>
+                        <li><a href="#">Đăng nhập</a></li>
+                        
+                    </ul>
+                </nav>
+				<!-- /main nav -->
+				
+            </div>
+        </header>
+
+		<section id="">
+			<div class="container">
+				<div class="row">
+					<div class="title">
+						<h2></h2>
+					</div>
+					<div class="">
+						<div class="media wow fadeInLeft" data-wow-delay=".3s">
+						  <div class="media-left col col-md-4">
+						    <a href="#">
+						      <img src="img/story/reaper-s-fire.jpg" alt="">
+						    </a>
+						  </div>
+						  <div class="media-body " style="text-align: center;">
+                              <div>
+                                <h3 class="media-heading">NEVER NEVER</h3>
+                                <p style="font-size: larger; color:darkblue">Tác giả: Tarryn Fisher</p>
+                                <p style="font-size: larger; color:darkblue">Thể loại: Tiểu thuyết</p>
+                                <p style="font-size: larger; color:darkblue">Trạng thái: 7/12</p>
+                                <p style="font-size: larger; color:darkblue">Lượt đọc: 20434</p>
+                              <button class="btn-doc" value="doc" style="color: black;border-radius: 32px;padding-left: 30px;padding-right: 30px;">Đọc truyện</button>
+                              <button class="btn-doc" value="themtutruyen" style="color: black;border-radius: 32px;padding-left: 30px;padding-right: 30px;margin-top: 10px;">Thêm vào tủ truyện</button>
+                            </div>
+                              <div>
+<div id="gioithieu" class="tabcontent">
+  <h1>London</h1>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="danhmucchuong" class="tabcontent">
+  <h1>Paris</h1>
+  <p>Paris is the capital of France.</p> 
+</div>
+
+<div id="binhluan" class="tabcontent">
+  <h1>Tokyo</h1>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+</div>
+<div style="margin-top: 10px;">
+<button class="tablink" onclick="open('gioithieu', this, 'red')" id="defaultOpen" style="width: 260px;">Giới thiệu</button>
+<button class="tablink" onclick="open('danhmucchuong', this, 'green')" style="width: 260px;">Danh mục chương</button>
+<button class="tablink" onclick="open('Bình luận', this, 'blue')" style="width: 260px;">Bình luận</button>
+
+<script>
+function open(nametab,elmnt,color) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(cityName).style.display = "block";
+    elmnt.style.backgroundColor = color;
+
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+                               
+						  </div>
+                            </div>
+						</div>
+					</div>
+					
+				</div>
+		</div>
+		</section>
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="block">
+							<a href="#"><img src="" alt=""></a>
+							<p>© 2018 Copyright</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+		<!-- load Js -->
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>
+		<script src="js/waypoints.min.js"></script>
+		<script src="js/lightbox.js"></script>
+		<script src="js/jquery.counterup.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/html5lightbox.js"></script>
+		<script src="js/jquery.mixitup.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script src="js/jquery.scrollUp.js"></script>
+		<script src="js/jquery.sticky.js"></script>
+		<script src="js/jquery.nav.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
